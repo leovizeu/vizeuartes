@@ -26,7 +26,7 @@ function Header() {
     {icon: <MdMarkunread />, name: 'Email: mdfvizeuartes@gmail.com', href: '#'},
   ]
     return (
-        <header className='bg-slate-700 fixed backdrop-blur shadow-md w-full top-0 left-0 font-mono'>
+        <div className='bg-slate-700 fixed backdrop-blur shadow-md w-full top-0 left-0 font-mono'>
           <div className="inline-table max-md:hidden md:flex items-center justify-between xl:px-64">
             <div className="font-bold text-sm gap-5 cursor-pointer flex items-center text-white">
               <FaFacebook /><FaInstagram />
@@ -57,7 +57,7 @@ function Header() {
                 <SearchBar />
               </div>
             </div>
-        </header>
+        </div>
     )
 }
 
