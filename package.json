@@ -9,7 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@headlessui/react": "^1.7.18",
+=======
+    "@nextui-org/react": "^2.2.9",
+    "@react-icons/all-files": "^4.1.0",
+    "framer-motion": "^11.0.3",
+    "headlessui": "^0.0.0",
+>>>>>>> ad7fe6a02441f50707e0cc7348215f54891e6e4a
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
