@@ -27,13 +27,13 @@ const SearchBar = () => {
             
         <SearchButton otherClasses= "sm:hidden" />
         </div>
-        <div className="flex max-sm:w-full flex justify-start items-center">
+        <div className="flex max-sm:w-full w-96 justify-start items-center">
           <input 
           type="text"
           name="model"
           value={model}
           onChange={(e) => setModel(e.target.value)}
-          placeholder="Pesquise Aqui"
+          placeholder="Digite o produto..."
           className="w-full h-[48px] pl-12 p-4 bg-light-white rounded-full max-sm:rounded-full outline-none cursor-pointer text-sm"
           />
         </div>
