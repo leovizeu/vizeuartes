@@ -20,7 +20,11 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+<<<<<<< HEAD
     target: "ES2017"
+=======
+    "target": "ES2017"
+>>>>>>> c07f11bae76c1f402885c085a35a3a1826fa5bd6
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
